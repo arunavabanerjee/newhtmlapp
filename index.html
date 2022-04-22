@@ -4,5 +4,12 @@
   </head>
   <body>
     An Html Page from app
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script> 
+        var $ = jQuery.noConflict(); 
+        $(document).ready(function(){ 
+          $('body').append('<p style="color:red">Hello World from App</p>');
+        });
+    </script>  
   </body>
 </html>  
